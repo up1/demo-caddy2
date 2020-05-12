@@ -1,0 +1,9 @@
+version: '3.8'
+services: 
+    proxy:
+        build: ./caddy2
+        ports: 
+            - 3333:3333 
+    api:
+        build: .
+    
