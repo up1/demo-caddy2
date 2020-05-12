@@ -1,3 +1,5 @@
-www.somkiatxxx.com
+:3333
 
-respond "Hello World :-)"
+reverse_proxy /api/* api:8000
+root * /home/www
+file_server
